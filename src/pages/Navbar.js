@@ -1,3 +1,4 @@
+// Updated Navbar.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -44,6 +45,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/gallery" className="nav-link">
+              Gallery
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/contact" className="nav-link">
               Contact
             </Link>
@@ -57,6 +63,9 @@ const Navbar = () => {
           </Link>
           <Link to="/about" className="dropdown-link" onClick={closeMenu}>
             About
+          </Link>
+          <Link to="/gallery" className="dropdown-link" onClick={closeMenu}>
+            Gallery
           </Link>
           <Link to="/contact" className="dropdown-link" onClick={closeMenu}>
             Contact
