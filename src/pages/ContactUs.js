@@ -132,8 +132,8 @@ const ContactUs = () => {
           </p>
           <div className="timing-info">
             <h4>Class Timings:</h4>
-            <p>Morning: 6:00 AM - 8:00 AM</p>
-            <p>Evening: 5:00 PM - 7:00 PM</p>
+            <p>Morning: 5:00 AM - 7:00 AM</p>
+            <p>Evening: 6:00 PM - 8:00 PM</p>
           </div>
         </div>
       </div>

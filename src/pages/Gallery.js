@@ -6,90 +6,90 @@ const Gallery = () => {
 
   // Sample gallery images - replace with your client's actual images
   const galleryImages = [
-    {
-      id: 1,
-      category: "training",
-      title: "Morning Training Session",
-      description: "Students practicing basic techniques",
-      placeholder: "Training Session 1"
-    },
-    {
-      id: 2,
-      category: "training", 
-      title: "Kata Practice",
-      description: "Advanced kata demonstrations",
-      placeholder: "Kata Practice"
-    },
-    {
-      id: 3,
-      category: "training",
-      title: "Sparring Session",
-      description: "Students practicing kumite",
-      placeholder: "Sparring"
-    },
-    {
-      id: 4,
-      category: "achievements",
-      title: "Belt Ceremony",
-      description: "Students receiving new belts",
-      placeholder: "Belt Ceremony"
-    },
-    {
-      id: 5,
-      category: "achievements",
-      title: "Competition Winners",
-      description: "Our champions with their medals",
-      placeholder: "Competition Winners"
-    },
-    {
-      id: 6,
-      category: "achievements", 
-      title: "National Awards",
-      description: "National level achievements",
-      placeholder: "National Awards"
-    },
-    {
-      id: 7,
-      category: "instructors",
-      title: "Sensei Anil Teaching",
-      description: "Head instructor demonstrating techniques",
-      placeholder: "Sensei Anil"
-    },
-    {
-      id: 8,
-      category: "instructors",
-      title: "Sensei Bharati with Students",
-      description: "Youth training session",
-      placeholder: "Sensei Bharati"
-    },
-    {
-      id: 9,
-      category: "events",
-      title: "Annual Day Celebration",
-      description: "Cultural program and demonstrations",
-      placeholder: "Annual Day"
-    },
-    {
-      id: 10,
-      category: "events",
-      title: "Workshop Session",
-      description: "Special training workshop",
-      placeholder: "Workshop"
-    },
-    {
-      id: 11,
-      category: "facility",
-      title: "Dojo Interior",
-      description: "Our training facility",
-      placeholder: "Dojo Interior"
-    },
-    {
-      id: 12,
-      category: "facility",
-      title: "Training Equipment",
-      description: "Professional training gear",
-      placeholder: "Equipment"
-    }
+    // {
+    //   id: 1,
+    //   category: "training",
+    //   title: "Morning Training Session",
+    //   description: "Students practicing basic techniques",
+    //   placeholder: "Training Session 1"
+    // },
+    // {
+    //   id: 2,
+    //   category: "training", 
+    //   title: "Kata Practice",
+    //   description: "Advanced kata demonstrations",
+    //   placeholder: "Kata Practice"
+    // },
+    // {
+    //   id: 3,
+    //   category: "training",
+    //   title: "Sparring Session",
+    //   description: "Students practicing kumite",
+    //   placeholder: "Sparring"
+    // },
+    // {
+    //   id: 4,
+    //   category: "achievements",
+    //   title: "Belt Ceremony",
+    //   description: "Students receiving new belts",
+    //   placeholder: "Belt Ceremony"
+    // },
+    // {
+    //   id: 5,
+    //   category: "achievements",
+    //   title: "Competition Winners",
+    //   description: "Our champions with their medals",
+    //   placeholder: "Competition Winners"
+    // },
+    // {
+    //   id: 6,
+    //   category: "achievements", 
+    //   title: "National Awards",
+    //   description: "National level achievements",
+    //   placeholder: "National Awards"
+    // },
+    // {
+    //   id: 7,
+    //   category: "instructors",
+    //   title: "Sensei Anil Teaching",
+    //   description: "Head instructor demonstrating techniques",
+    //   placeholder: "Sensei Anil"
+    // },
+    // {
+    //   id: 8,
+    //   category: "instructors",
+    //   title: "Sensei Bharati with Students",
+    //   description: "Youth training session",
+    //   placeholder: "Sensei Bharati"
+    // },
+    // {
+    //   id: 9,
+    //   category: "events",
+    //   title: "Annual Day Celebration",
+    //   description: "Cultural program and demonstrations",
+    //   placeholder: "Annual Day"
+    // },
+    // {
+    //   id: 10,
+    //   category: "events",
+    //   title: "Workshop Session",
+    //   description: "Special training workshop",
+    //   placeholder: "Workshop"
+    // },
+    // {
+    //   id: 11,
+    //   category: "facility",
+    //   title: "Dojo Interior",
+    //   description: "Our training facility",
+    //   placeholder: "Dojo Interior"
+    // },
+    // {
+    //   id: 12,
+    //   category: "facility",
+    //   title: "Training Equipment",
+    //   description: "Professional training gear",
+    //   placeholder: "Equipment"
+    // }
   ];
 
   const categories = [
@@ -165,12 +165,12 @@ const Gallery = () => {
             </div>
 
             {/* Empty State */}
-            {filteredImages.length === 0 && (
+            {/* {filteredImages.length === 0 && (
               <div className="empty-gallery">
                 <h3>No photos found in this category</h3>
                 <p>Please select another category to view photos</p>
               </div>
-            )}
+            )} */}
           </div>
         </section>
 
