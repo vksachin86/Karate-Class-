@@ -34,7 +34,7 @@ const Footer = () => {
             </button>
 
             <button
-              className="icon-btn"
+              className="icon-btn" 
               onClick={handleWhatsApp}
               aria-label="WhatsApp us"
             >
