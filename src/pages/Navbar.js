@@ -17,6 +17,14 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
+          <Link to="/"><img
+            src="./karatelogo.png"
+            alt="Karate Logo"
+            className="logo-image"
+            width="45px"
+            height="45px"
+          />
+          </Link>
           <Link to="/" className="logo-link">
             <span className="logo-text">Goju-ryu Karate</span>
           </Link>
