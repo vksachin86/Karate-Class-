@@ -55,10 +55,6 @@ const ContactUs = () => {
                 <button className="contact-btn" onClick={handleWhatsApp}>
                   WhatsApp
                 </button>
-
-
-
-                
               </div>
             </div>
 
