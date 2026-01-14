@@ -36,9 +36,6 @@ const Footer = () => {
             <button
               className="icon-btn" 
               onClick={handleWhatsApp}
-
-
-              
               aria-label="WhatsApp us"
             >
               <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
