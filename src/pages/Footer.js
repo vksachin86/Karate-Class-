@@ -21,7 +21,6 @@ const Footer = () => {
             &copy; 2024 Bharatiya jai Bheem Dal Karate Class. All rights
             reserved.
           </p>
-
           <div className="social-icons">
             <button
               className="icon-btn"
