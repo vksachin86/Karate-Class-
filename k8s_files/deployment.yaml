@@ -1,0 +1,23 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: karate-app
+  labels:
+    app: karate-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: karate-app
+  template:
+    metadata:
+      labels:
+        app: karate-app
+    spec:
+      containers:
+      - name: karate-container
+        image: 198011705618.dkr.ecr.us-east-1.amazonaws.com/karate-web@sha256:100348f4f8af10b987eafa4754cb748b8e8968093e222032c603c7f5dee5fc01
+        ports:
+        - containerPort: 3000
+...
